@@ -1,0 +1,48 @@
+Aims
+
+This project aims to give students hands-on experience in designing and implementing a Web application on their own.
+Description
+
+New business models have revolutionised the music business. Songs are now sold as singles or together as albums from many music stores such as ITunes Music Store, Rhapsody and eMusic.
+
+The objective of this assignment is to construct a web-based music store application using XML, Servlets and JSP at the minimum.
+
+Each song has the following minimum attributes: Artist, Title, Album, Genre, Year, Price.
+
+Songs are grouped into albums. An album has the following minimum attributes: Title, Album Artist, Genre, Publisher, Year, and Price. Other than Title and Album Artist, songs that are part of an album share the same Genre, Publisher and Year.
+
+The process followed by the site is:
+
+    User selects to search for either albums or individual songs
+    After selection, user searches for albums/songs by either artist, genre or year
+    After search, user selects (via checkbox) the albums/songs she wants to buy
+    Then the user is taken to a checkout page where her choices are displayed, the prices added up and the user is asked to confirm the purchase (Yes/no).
+    If yes, take user to a confirmation page ("Your purchase is confirmed") and exits the store (invalidate session)
+    If no, take user back to store front page
+    Amendment: The user can go back and repeat searches with other terms, and make other selections. These choices should be added to the list of albums/songs already selected. The list should be retained until the user exits from the confirmation page.
+
+Other Notes
+
+Song and Album data must be stored in XML files. You have to design a schema for the files(s).
+
+Your application must be constructed as per the standard three-tier architecture. This means that the XML file must be used as a database and data manipulation must happen in a servlet. You should not manipulate the XML directly within JSP.
+Submission and Demo
+
+The deadline for the assignment is Sunday, April 1, 2012, 11:59 p.m. You have to submit a .war file of your assignment through give. More instructions will be provided shortly. Demo will be conducted during Week 6 Labs (Tue-Thu). Each of you will demo Assignment 1 to your tutor on a CSE lab machine.
+
+Submission Instructions
+
+    Generate a war file from your project. In Eclipse, this is Right-Click on project name --> Export --> WAR file. Make sure that the "Export Sources" checkbox is checked.
+    Run the command
+
+    give cs9321 Assign1 <war-file> 
+
+Marking
+This is an individual assignment worth 8 marks which will be marked according to a this marking scheme that will be provided shortly. Roughly, there are 6 marks for meeting the requirements, 1 mark for quality of your work and 1 mark for innovation.
+
+You will lose marks for quality for a shoddy output (e.g. Songs with artists named ABC and Title XYZ). Populate your store database with useful data. There's enough information about songs out on the Internet (e.g. Music Brainz http://musicbrainz.org/doc/MusicBrainz_Database). You must have atleast 30 songs in your store.
+
+You'll get the mark for innovation if you have gone beyond the specified requirements and implemented an interesting feature. Feel free to experiment.
+Important
+
+Please use the message board for resolving doubts.
