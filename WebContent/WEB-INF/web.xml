@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>OnlineMusicStore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SearchServlet</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>showDetailServlet</display-name>
+    <servlet-name>showDetailServlet</servlet-name>
+    <servlet-class>com.servlet.showDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showDetailServlet</servlet-name>
+    <url-pattern>/showDetail</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CartServlet</display-name>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowAlbumServlet</display-name>
+    <servlet-name>ShowAlbumServlet</servlet-name>
+    <servlet-class>com.servlet.ShowAlbumServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowAlbumServlet</servlet-name>
+    <url-pattern>/ShowAlbum</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckoutServlet</display-name>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>com.servlet.CheckoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/Checkout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConfirmServlet</display-name>
+    <servlet-name>ConfirmServlet</servlet-name>
+    <servlet-class>com.servlet.ConfirmServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConfirmServlet</servlet-name>
+    <url-pattern>/Confirm</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   
+  <error-page>
+   <error-code>400</error-code>
+   <location>/error404.jsp</location>
+  </error-page>
+  
+  <error-page>
+   <error-code>404</error-code>
+   <location>/error404.jsp</location>
+  </error-page>
+ 
+  <error-page>
+   <error-code>500</error-code>
+   <location>/error404.jsp</location>
+  </error-page>
+  
+  <error-page>
+   <exception-type>java.lang.Exception</exception-type>
+   <location>/error404.jsp</location>
+  </error-page>
+  
+  <error-page>
+   <exception-type>java.lang.NullPointerException</exception-type>
+   <location>/error404.jsp</location>
+  </error-page>
+  <error-page>
+   <exception-type>javax.servlet.ServletException</exception-type>
+   <location>/error404.jsp</location>
+  </error-page> 
+</web-app>

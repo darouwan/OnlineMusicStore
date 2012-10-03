@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Musics [
+<!ELEMENT AlbumList (Album+) >
+<!ELEMENT Album (Album_Title, Album_Artist, Genre, Publisher, Year, Album_Price,SongsList)>
+<!ELEMENT Album_Title (#PCDATA)>
+<!ELEMENT Album_Artist (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Album_Price (#PCDATA)>
+<!ELEMENT SongList (Song+)>
+<!ELEMENT Song (Artist,Title,Price)>
+<!ELEMENT Artist (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+
+]>
+
+<Album_List>
+
+	<Album>
+		<Album_Title>Number Ones</Album_Title>
+		<Album_Artist>Michael Jackson</Album_Artist>
+		<Genre>Pop</Genre>
+		<Publisher>SONY</Publisher>
+		<Year>2003</Year>
+		<Album_Price>10.99</Album_Price>
+		<SongsList>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Don t Stop Til You Get Enough (2003 Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Rock With You (Single Version)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Billie Jean (Single Version)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Beat It (Single Version)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Thriller (2003 Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>I Just Can t Stop Loving You</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Bad</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Smooth Criminal (Radio Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>The Way You Make Me Feel</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Man In The Mirror (2003 Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Dirty Diana</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Black Or White (Single Version)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>You Are Not Alone (Radio Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Earth Song (Radio Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>You Rock My World (Radio Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Break Of Dawn</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>One More Chance</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Michael Jackson</Artist>
+				<Title>Ben (2003 Live Edit)</Title>
+				<Price>1.29</Price>
+			</Song>
+		</SongsList>
+	</Album>
+
+	<Album>
+		<Album_Title>21</Album_Title>
+		<Album_Artist>Adele</Album_Artist>
+		<Genre>Pop</Genre>
+		<Publisher>SONY</Publisher>
+		<Year>2011</Year>
+		<Album_Price>10.99</Album_Price>
+		<SongsList>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Rolling In The Deep</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Rumour Has It</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Turning Tables</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Don t You Remember</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Set Fire To The Rain</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>He Won t Go</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Take It All</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>I ll Be Waiting</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>One And Only</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Lovesong</Title>
+				<Price>1.29</Price>
+			</Song>
+			<Song>
+				<Artist>Adele</Artist>
+				<Title>Someone Like You</Title>
+				<Price>1.29</Price>
+			</Song>
+		</SongsList>
+	</Album>
+
+	<Album>
+		<Album_Title>Recovery</Album_Title>
+		<Album_Artist>Eminem</Album_Artist>
+		<Genre>Rap Hip-Hop</Genre>
+		<Publisher>Amazon</Publisher>
+		<Year>2010</Year>
+		<Album_Price>9.99</Album_Price>
+		<SongsList>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Cold Wind Blows [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Talkin  2 Myself [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>On Fire [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Won t Back Down [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>W.T.P. [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Going Through Changes [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Not Afraid [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Seduction [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>No Love [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Space Bound [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Cinderella Man [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>25 To Life [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>So Bad [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Almost Famous [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Love The Way You Lie [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>You re Never Over [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Eminem</Artist>
+				<Title>Untitled [Explicit]</Title>
+				<Price>0.99</Price>
+			</Song>
+		</SongsList>
+	</Album>
+
+	<Album>
+		<Album_Title>Fearless</Album_Title>
+		<Album_Artist>Taylor Swift</Album_Artist>
+		<Genre>Pop</Genre>
+		<Publisher>Amazon </Publisher>
+		<Year>2008</Year>
+		<Album_Price>7.99</Album_Price>
+		<SongsList>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Fearless</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Fifteen</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Love Story</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Hey Stephen</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>White Horse</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>You Belong With Me</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Breathe</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Tell Me Why</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>You re Not Sorry</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>The Way I Loved You</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Forever  Always</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>The Best Day</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Taylor Swift</Artist>
+				<Title>Change</Title>
+				<Price>0.99</Price>
+			</Song>
+		</SongsList>
+	</Album>
+	
+	<Album>
+		<Album_Title>And Winter Came</Album_Title>
+		<Album_Artist>Enya</Album_Artist>
+		<Genre>Folk</Genre>
+		<Publisher>Amazon</Publisher>
+		<Year>2008</Year>
+		<Album_Price>6.99</Album_Price>
+		<SongsList>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>And Winter Came</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Journey Of The Angels</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>White Is In The Winter Night</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>O Come O Come Emmanuel</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Trains And Winter Rains</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Dreams Are More Precious</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Last Time By Moonlight</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>One Toy Soldier</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Stars And Midnight Blue</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>The Spirit Of Christmas Past</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>My! My! Time Flies!</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Oíche Chiúin [Chorale]</Title>
+				<Price>0.99</Price>
+			</Song>
+			<Song>
+				<Artist>Enya</Artist>
+				<Title>Miraculum (Amazon MP3 Exclusive)</Title>
+				<Price>0.99</Price>
+			</Song>
+		</SongsList>
+		</Album>
+	
+</Album_List>
+
